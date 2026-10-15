@@ -1,0 +1,35 @@
+# Starter Starship prompt for a clean, dual-tone desktop.
+# Keep it readable and avoid excessive visual noise.
+
+format = """
+$directory$git_branch$git_status$character
+"""
+
+[character]
+success_symbol = "[❯](bold white)"
+error_symbol = "[✖](bold red)"
+
+[directory]
+style = "bold white"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+style = "bold gray"
+symbol = " "
+
+[git_status]
+format = '([$all_status$ahead_behind]($style)) '
+style = "bold gray"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "gray"
+
+[status]
+format = "[$status]($style) "
+style = "bold red"
+
+[time]
+disabled = true

@@ -1,0 +1,40 @@
+# Local environment and temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Shell history and session artifacts
+.bash_history
+.zsh_history
+
+# Backup and scratch files
+*.bak
+*.orig
+*.tmp
+
+# Local screenshots and generated assets
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.webp
+
+# Keep placeholder docs while allowing future images to be added
+!screenshots/README.md
+
+# Optional: keep personal config files out of version control
+# Remove the comments if you want to ignore local customizations
+# ~/.config/
+# ~/.cache/
+# ~/.local/share/
+
+# Tooling caches
+node_modules/
+__pycache__/
+.venv/
+venv/

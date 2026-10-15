@@ -1,0 +1,14 @@
+# AUR packages are kept separate from Pacman packages.
+# These are examples only and should be reviewed before installation.
+# Do not assume they are installed or needed for every system.
+
+# Examples:
+# yay
+# visual-studio-code-bin
+# spotify
+# betterlockscreen
+# latte-dock
+# ttf-meslo-nerd-font
+
+# Add packages here only when you want a specific AUR workflow.
+# Keep this list distinct from official repository packages.

@@ -1,0 +1,47 @@
+# Arch Linux packages for a minimal KDE Plasma desktop
+# Keep this file easy to review and update.
+# One package per line; blank lines and comments are ignored by helper scripts.
+
+base-devel
+git
+curl
+wget
+bash
+fish
+zsh
+htop
+neofetch
+fastfetch
+kitty
+starship
+firefox
+vlc
+nano
+vim
+unar
+zip
+unzip
+p7zip
+man-db
+man-pages
+rsync
+sudo
+openssh
+pipewire
+wireplumber
+alsa-utils
+pulseaudio
+plasma-desktop
+plasma-nm
+kde-system-meta
+ark
+dolphin
+okular
+spectacle
+kscreen
+systemsettings
+kdeconnect
+sddm
+
+# Add or remove packages as needed for your personal workflow.
+# This is a template rather than a personal machine inventory.
